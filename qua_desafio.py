@@ -12,8 +12,7 @@ pal = str(input("Digite uma palavra: "))
 valor = 0
 
 for i in pal:
-    if i in alf:
-        valor += alf.index(i)
+    valor += alf.index(i)
 
 if is_prime(valor):
     print("Essa palavra é prima!")
